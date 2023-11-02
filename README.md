@@ -84,10 +84,10 @@ To Edit the README:
         }
     }
 ```
-**'IsCreatedWithTwoArguments()'
-'SummaryMethod_ReturnsVehicleSummaryString()'
-'DriveMethod_AddsFiveMilesTo_MilesDrivenInt()'
-'PaintMethod_SetsStringColor_AsNewColor'**
+**'IsCreatedWithTwoArguments()'**
+**'SummaryMethod_ReturnsVehicleSummaryString()'**
+**'DriveMethod_AddsFiveMilesTo_IntMilesDriven()'**
+**'PaintMethod_SetsStringColor_AsNewColor'**
 
 
 ## Exercise (8 Points Possible)
