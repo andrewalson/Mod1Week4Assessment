@@ -86,7 +86,7 @@ To Edit the README:
 ```
 **'IsCreatedWithTwoArguments()'**
 **'SummaryMethod_ReturnsVehicleSummaryString()'**
-**'DriveMethod_AddsFiveMilesTo_MilesDrivenInt()'**
+**'DriveMethod_AddsFiveMilesTo_IntMilesDriven()'**
 **'PaintMethod_SetsStringColor_AsNewColor'**
 
 
