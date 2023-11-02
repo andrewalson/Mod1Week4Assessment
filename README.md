@@ -38,20 +38,21 @@ To Edit the README:
     B. `Chair bench = new Chair(24, true);`  
     C. `var bench = new(24, true);`  
     D. `Chair bench = new(24, true);`  
-    
+    **Answer C doesn't work because no type was explicitly declared; the program doesn't know what kind of object is attempting to be constructed.**
     
 2. Imagine you are interviewing for your first job.  The interviewer asks "What can you tell me about OOP?".  Write your response below:
-
+**OOP stands for Object Oriented Programming is one of the most popular and widely used programming paradigms. OOP is used to structure software programs into reusable pieces of code that represent individual objects with states and behaviors, often (including in C#) in the form of classes.**
 
 3. What is Automated Testing?
-
+**An automated test is a seperate project An automated test is a separate project that a developer creates alongside their implementation code which relies on the implementation code that is being written and provides feedback to the developer based on the expected behavior**
 
 4. What are some benefits of creating tests for our projects?
+**Allows testing a portion of code without running the whole codebase, allows testing incomplete code or features, as well as acting as a form of documentation and facilitating refactoring. It makes it easy to determine what's breaking when something breaks.**
 
+6. When you create a test project, you do not immediately have access to the class(es) in the project that you are testing.  What do you need to do in order to have access to those classes?
+**Add a Project Reference to the original.**
 
-5. When you create a test project, you do not immediately have access to the class(es) in the project that you are testing.  What do you need to do in order to have access to those classes?
-
-6. Take a look at the class below.  Write out the **names** of each test you would write to verify that this class is working. You do not need to write the whole test, just what you would **name** the test methods. Ex: `IsCreatedWithTwoArguments()`
+8. Take a look at the class below.  Write out the **names** of each test you would write to verify that this class is working. You do not need to write the whole test, just what you would **name** the test methods. Ex: `IsCreatedWithTwoArguments()`
 ```c#
     public class Vehicle
     {
@@ -83,7 +84,10 @@ To Edit the README:
         }
     }
 ```
-
+**'IsCreatedWithTwoArguments()'
+'SummaryMethod_ReturnsVehicleSummaryString()'
+'DriveMethod_AddsFiveMilesTo_MilesDrivenInt()'
+'PaintMethod_SetsStringColor_AsNewColor'**
 
 
 ## Exercise (8 Points Possible)
